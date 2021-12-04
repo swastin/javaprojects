@@ -1,0 +1,9 @@
+package com.json;
+
+public class Ems {
+
+	public Ems() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

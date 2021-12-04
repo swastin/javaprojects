@@ -1,0 +1,73 @@
+<!-- Use this file to deploy some handlers/chains and services      -->
+<!-- Two ways to do this:                                           -->
+<!--   java org.apache.axis.client.AdminClient deploy.wsdd          -->
+<!--      after the axis server is running                          -->
+<!-- or                                                             -->
+<!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   -->
+<!--      from the same directory that the Axis engine runs         -->
+
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from PhoneBanking WSDL service -->
+
+  <service name="PhoneBankingSOAP" provider="java:RPC" style="document" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://www.example.org/PhoneBanking/"/>
+      <parameter name="wsdlServiceElement" value="PhoneBanking"/>
+      <parameter name="schemaUnqualified" value="http://www.example.com/PhoneBanking,http://www.example.org/PhoneBanking/"/>
+      <parameter name="wsdlServicePort" value="PhoneBankingSOAP"/>
+      <parameter name="className" value="org.example.www.PhoneBanking.PhoneBankingSOAPSkeleton"/>
+      <parameter name="wsdlPortType" value="PhoneBanking"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <parameter name="allowedMethods" value="*"/>
+
+      <typeMapping
+        xmlns:ns="http://www.example.com/PhoneBanking"
+        qname="ns:VerificationCode"
+        type="java:com.example.www.PhoneBanking.VerificationCode"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.example.com/PhoneBanking"
+        qname="ns:BillInfo"
+        type="java:com.example.www.PhoneBanking.BillInfo"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.example.com/PhoneBanking"
+        qname="ns:AccountType"
+        type="java:com.example.www.PhoneBanking.AccountType"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <arrayMapping
+        xmlns:ns="http://www.example.com/PhoneBanking"
+        qname="ns:PayeeList"
+        type="java:com.example.www.PhoneBanking.Payee[]"
+        innerType="cmp-ns:Payee" xmlns:cmp-ns="http://www.example.com/PhoneBanking"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.example.com/PhoneBanking"
+        qname="ns:Payee"
+        type="java:com.example.www.PhoneBanking.Payee"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+      <typeMapping
+        xmlns:ns="http://www.example.com/PhoneBanking"
+        qname="ns:CompletionCode"
+        type="java:com.example.www.PhoneBanking.CompletionCode"
+        serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+        deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+        encodingStyle=""
+      />
+  </service>
+</deployment>

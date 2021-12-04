@@ -1,0 +1,17 @@
+
+^
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8ú§®´Ï/H–RMINORZ
+CODE_SMELL
+j
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8ú§®´Ï/H˜RMINORZ
+CODE_SMELL
+¤
+java:S1130"qRemove the declaration of thrown exception 'java.text.ParseException', as it cannot be thrown from method's body.(ˆ…­Å8ú§®´Ï/HšRMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Ô„¢øÿÿÿÿ8ñø¹´Ï/HœRMAJORZ
+CODE_SMELL
+}	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(æ•—şÿÿÿÿHRMINORZ
+CODE_SMELL
+e
+java:S1128	"-Remove this unused import 'java.util.Locale'.(åğ×±ûÿÿÿÿ8Ïî»´Ï/HRMINORZ
+CODE_SMELL

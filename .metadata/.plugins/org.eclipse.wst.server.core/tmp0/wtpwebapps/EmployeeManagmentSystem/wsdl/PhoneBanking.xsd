@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.example.com/PhoneBanking" targetNamespace="http://www.example.com/PhoneBanking">
+      
+  <element name="AnnountInfo" type="tns:AccountType"/>
+      
+    
+  <element name="Payee" type="tns:Payee"/>
+      
+    
+  <element name="PayeeList" type="tns:PayeeList"/>
+      
+    
+  <complexType name="PayeeList">
+        	
+    <sequence>
+          		
+      <element maxOccurs="unbounded" minOccurs="0" name="payee" type="tns:Payee"/>
+          	
+    </sequence>
+        
+  </complexType>
+      
+  <complexType name="Payee">
+        	
+    <attribute name="name" type="string"/>
+        	
+    <attribute name="accountCode" type="string"/>
+        
+  </complexType>
+      
+  <element name="AccountSummary" type="string"/>
+      
+  <element name="CompletionCode" type="tns:CompletionCode"/>
+      
+    
+  <element name="VerificationCode" type="tns:VerificationCode"/>
+      
+    
+  <element name="BillInfo" type="tns:BillInfo"/>
+      
+    
+  <complexType name="AccountType">
+        	
+    <attribute name="name" type="string"/>
+        	
+    <attribute name="accountId" type="string"/>
+        
+  </complexType>
+      
+  <complexType name="VerificationCode">
+        	
+    <attribute name="completed" type="boolean"/>
+        	
+    <attribute name="code" type="string"/>
+        
+  </complexType>
+      
+  <complexType name="CompletionCode">
+        	
+    <attribute name="completed" type="boolean"/>
+        
+  </complexType>
+      
+  <complexType name="BillInfo">
+        	
+    <sequence>
+          		
+      <element name="payee" type="tns:Payee"/>
+          	
+    </sequence>
+        	
+    <attribute name="ammount" type="double"/>
+        	
+    <attribute name="accountType" type="string"/>
+        	
+    <attribute name="date" type="date"/>
+        
+  </complexType>
+  
+</schema>

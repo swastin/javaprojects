@@ -1,0 +1,26 @@
+package com.json;
+
+import java.util.List;
+
+public class Ems {
+
+	public Ems() {}
+	
+	private List<Employee> Emplist;
+
+	public List<Employee> getEmplist() {
+		return Emplist;
+	}
+
+	public void setEmplist(List<Employee> emplist) {
+		Emplist = emplist;
+	}
+
+	public Ems(List<Employee> emplist) {
+		super();
+		Emplist = emplist;
+	}
+	
+
+
+}

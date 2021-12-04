@@ -1,0 +1,63 @@
+package com.json;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import jakarta.json.bind.Jsonb;
+import jakarta.json.bind.JsonbBuilder;
+
+public class Apps {
+
+	public Apps() {}
+
+	public static void main(String[] args) {
+		Jsonb jsonb= JsonbBuilder.create();
+		Employee e=new Employee();
+		Address add= new Address();
+		
+		Employee e2=new Employee();
+		Address add1= new Address();
+		
+		add.setHousenumber("2rbf59/5");
+		add.setCity("bhubaneswar");
+		add.setState("odisha");
+		add.setCountry("india");
+		add.setZipCode(751022);
+		
+		
+		add1.setHousenumber("2rbf59/6");
+		add1.setCity("bhubaneswar");
+		add1.setState("odisha");
+		add1.setCountry("india");
+		add1.setZipCode(751022);
+		
+		
+		
+		String json= "{\"id\":1,\"name\":\"swastin\",\"phone_number\":87}";
+		e.setId(1);
+		e.setName("swastin");
+		e.setPhone_number(82);
+		e.setAddress(add);
+		
+		e2.setId(1);
+		e2.setName("swastin");
+		e2.setPhone_number(82);
+		e2.setAddress(add1);
+		
+		List<Employee> ems1=new ArrayList<Employee>();
+		ems1.add(e);
+		ems1.add(e2);
+		Ems ems=new Ems();
+		ems.setEmplist(ems);
+		
+		
+		String s=jsonb.toJson(e);
+		System.out.println(s);
+		Employee e1=jsonb.fromJson(json,Employee.class);
+		System.out.println(e1.getId());
+		System.out.println(e1.getName());
+		System.out.println(e1.getPhone_number());
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.MessageDigestAlgo;
+
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+public class ShaDemo {
+public ShaDemo() {}
+	public static void main(String[] args) throws NoSuchAlgorithmException 
+	{
+	
+		MessageDigest digest = MessageDigest.getInstance("MD2");
+		String originalString = "swastin sahoo";
+		byte[] encodedhash = digest.digest(
+		  originalString.getBytes(StandardCharsets.UTF_16));
+		
+for (int i = 0; i < encodedhash.length; i++) {
+	
+	System.out.println(encodedhash[i]);
+}
+		
+}
+}

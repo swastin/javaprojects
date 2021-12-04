@@ -1,0 +1,247 @@
+
+i	Web:S5254"@Add "lang" and/or "xml:lang" attributes to this "<html>" element(œ÷ÃûÿÿÿÿHûRMAJORZBUG
+[	Web:S1827	"+Remove this deprecated "bgcolor" attribute.(¥ŒˆÌûÿÿÿÿHüRMAJORZ
+CODE_SMELL
+Y	Web:S1827")Remove this deprecated "align" attribute.(¶ÕéúÿÿÿÿHıRMAJORZ
+CODE_SMELL
+`Web:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(‰«îHşRMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(‰«îHÿRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(åó¬’ıÿÿÿÿH€RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(åó¬’ıÿÿÿÿHRMAJORZBUG
+\Web:TableWithoutCaptionCheck" Add a description to this table.(¿‰˜ÿÿÿÿÿH‚RMINORZBUG
+N	Web:S5256"%Add "<th>" headers to this "<table>".(¿‰˜ÿÿÿÿÿHƒRMAJORZBUG
+Y	Web:S1827")Remove this deprecated "ALIGN" attribute.(œÙ‘ÍùÿÿÿÿH„RMAJORZ
+CODE_SMELL
+Y	Web:S1827")Remove this deprecated "WIDTH" attribute.(œÙ‘ÍùÿÿÿÿH…RMAJORZ
+CODE_SMELL
+[	Web:S1827"+Remove this deprecated "BGCOLOR" attribute.(œÙ‘ÍùÿÿÿÿH†RMAJORZ
+CODE_SMELL
+[Web:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(œÙ‘ÍùÿÿÿÿH‡RMINORZBUG
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(œÙ‘ÍùÿÿÿÿHˆRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(œÙ‘ÍùÿÿÿÿH‰RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(œÙ‘ÍùÿÿÿÿHŠRMAJORZBUG
+Y	Web:S1827")Remove this deprecated "ALIGN" attribute.(—’ĞìùÿÿÿÿH‹RMAJORZ
+CODE_SMELL
+[	Web:S1827"+Remove this deprecated "BGCOLOR" attribute.(—’ĞìùÿÿÿÿHŒRMAJORZ
+CODE_SMELL
+Y	Web:S1827")Remove this deprecated "width" attribute.(—’ĞìùÿÿÿÿHRMAJORZ
+CODE_SMELL
+[Web:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(—’ĞìùÿÿÿÿHRMINORZBUG
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(—’ĞìùÿÿÿÿHRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(—’ĞìùÿÿÿÿHRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(—’ĞìùÿÿÿÿH‘RMAJORZBUG
+T	Web:S1827")Remove this deprecated "width" attribute.(ª™H’RMAJORZ
+CODE_SMELL
+U	Web:S1827"*Remove this deprecated "height" attribute.(ª™H“RMAJORZ
+CODE_SMELL
+`Web:UnsupportedTagsInHtml5Check"&Remove this deprecated "FONT" element.(ª™H”RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check"&Remove this deprecated "FONT" element.(ª™H•RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check"&Remove this deprecated "FONT" element.(ª™H–RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check"&Remove this deprecated "FONT" element.(¨†°H—RMAJORZBUG
+Z	Web:S1827"*Remove this deprecated "height" attribute.(µÆìûúÿÿÿÿH˜RMAJORZ
+CODE_SMELL
+Y	Web:S1827")Remove this deprecated "width" attribute.(µÆìûúÿÿÿÿH™RMAJORZ
+CODE_SMELL
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "FONT" element.(µÆìûúÿÿÿÿHšRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "FONT" element.(µÆìûúÿÿÿÿH›RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "FONT" element.(µÆìûúÿÿÿÿHœRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "FONT" element.(’ìÃ±ıÿÿÿÿHRMAJORZBUG
+T	Web:S1827#")Remove this deprecated "width" attribute.(ª™HRMAJORZ
+CODE_SMELL
+U	Web:S1827#"*Remove this deprecated "height" attribute.(ª™HŸRMAJORZ
+CODE_SMELL
+`Web:UnsupportedTagsInHtml5Check#"&Remove this deprecated "FONT" element.(ª™H RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check#"&Remove this deprecated "FONT" element.(ª™H¡RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check#"&Remove this deprecated "FONT" element.(ª™H¢RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check$"&Remove this deprecated "FONT" element.(’î–¬H£RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check%"&Remove this deprecated "FONT" element.(ú±êğûÿÿÿÿH¤RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check%"&Remove this deprecated "FONT" element.(ú±êğûÿÿÿÿH¥RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check&"&Remove this deprecated "FONT" element.(øá§ÏH¦RMAJORZBUG
+Z	Web:S1827("*Remove this deprecated "height" attribute.(µÆìûúÿÿÿÿH§RMAJORZ
+CODE_SMELL
+Y	Web:S1827(")Remove this deprecated "width" attribute.(µÆìûúÿÿÿÿH¨RMAJORZ
+CODE_SMELL
+eWeb:UnsupportedTagsInHtml5Check("&Remove this deprecated "FONT" element.(µÆìûúÿÿÿÿH©RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check("&Remove this deprecated "FONT" element.(µÆìûúÿÿÿÿHªRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check("&Remove this deprecated "FONT" element.(µÆìûúÿÿÿÿH«RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check)"&Remove this deprecated "FONT" element.(Ÿ¤»ùÿÿÿÿH¬RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check)"&Remove this deprecated "FONT" element.(Ÿ¤»ùÿÿÿÿH­RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check)"&Remove this deprecated "FONT" element.(Ÿ¤»ùÿÿÿÿH®RMAJORZBUG
+_Web:UnsupportedTagsInHtml5Check*"&Remove this deprecated "font" element.(µÎH¯RMAJORZBUG
+T	Web:S18270")Remove this deprecated "width" attribute.(ª™H°RMAJORZ
+CODE_SMELL
+U	Web:S18270"*Remove this deprecated "height" attribute.(ª™H±RMAJORZ
+CODE_SMELL
+`Web:UnsupportedTagsInHtml5Check0"&Remove this deprecated "FONT" element.(ª™H²RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check0"&Remove this deprecated "FONT" element.(ª™H³RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check0"&Remove this deprecated "FONT" element.(ª™H´RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check1"&Remove this deprecated "FONT" element.(ÀüÄ¯HµRMAJORZBUG
+Z	Web:S18272"*Remove this deprecated "height" attribute.(µÆìûúÿÿÿÿH¶RMAJORZ
+CODE_SMELL
+Y	Web:S18272")Remove this deprecated "width" attribute.(µÆìûúÿÿÿÿH·RMAJORZ
+CODE_SMELL
+eWeb:UnsupportedTagsInHtml5Check2"&Remove this deprecated "FONT" element.(µÆìûúÿÿÿÿH¸RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check2"&Remove this deprecated "FONT" element.(µÆìûúÿÿÿÿH¹RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check2"&Remove this deprecated "FONT" element.(µÆìûúÿÿÿÿHºRMAJORZBUG
+_Web:UnsupportedTagsInHtml5Check3"&Remove this deprecated "FONT" element.(­şò2H»RMAJORZBUG
+Y	Web:S1827;")Remove this deprecated "WIDTH" attribute.(‡Éâ¬ıÿÿÿÿH¼RMAJORZ
+CODE_SMELL
+`Web:UnsupportedTagsInHtml5Check<"&Remove this deprecated "font" element.(œÊşüH½RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check<"&Remove this deprecated "font" element.(œÊşüH¾RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check<"&Remove this deprecated "font" element.(œÊşüH¿RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check>"&Remove this deprecated "font" element.(İÏ¹şHÀRMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check>"&Remove this deprecated "font" element.(İÏ¹şHÁRMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check>"&Remove this deprecated "font" element.(İÏ¹şHÂRMAJORZBUG
+[Web:BoldAndItalicTagsCheck@"!Replace this <b> tag by <strong>.(°ÀóûÿÿÿÿHÃRMINORZBUG
+[Web:BoldAndItalicTagsCheckB"!Replace this <b> tag by <strong>.(Êê‹¤ùÿÿÿÿHÄRMINORZBUG
+eWeb:UnsupportedTagsInHtml5CheckB"&Remove this deprecated "font" element.(Êê‹¤ùÿÿÿÿHÅRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckB"&Remove this deprecated "font" element.(Êê‹¤ùÿÿÿÿHÆRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckB"&Remove this deprecated "font" element.(Êê‹¤ùÿÿÿÿHÇRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckD"&Remove this deprecated "font" element.(Êô¯çÿÿÿÿÿHÈRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckD"&Remove this deprecated "font" element.(Êô¯çÿÿÿÿÿHÉRMAJORZBUG
+[Web:BoldAndItalicTagsCheckD"!Replace this <b> tag by <strong>.(Êô¯çÿÿÿÿÿHÊRMINORZBUG
+eWeb:UnsupportedTagsInHtml5CheckD"&Remove this deprecated "font" element.(Êô¯çÿÿÿÿÿHËRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckD"&Remove this deprecated "font" element.(Êô¯çÿÿÿÿÿHÌRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckF"&Remove this deprecated "font" element.(ë§Ã¾HÍRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckF"&Remove this deprecated "font" element.(ë§Ã¾HÎRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckF"&Remove this deprecated "font" element.(ë§Ã¾HÏRMAJORZBUG
+_Web:UnsupportedTagsInHtml5CheckH"&Remove this deprecated "font" element.(®î”oHĞRMAJORZBUG
+_Web:UnsupportedTagsInHtml5CheckH"&Remove this deprecated "font" element.(®î”oHÑRMAJORZBUG
+UWeb:BoldAndItalicTagsCheckH"!Replace this <b> tag by <strong>.(®î”oHÒRMINORZBUG
+_Web:UnsupportedTagsInHtml5CheckH"&Remove this deprecated "font" element.(®î”oHÓRMAJORZBUG
+_Web:UnsupportedTagsInHtml5CheckH"&Remove this deprecated "font" element.(®î”oHÔRMAJORZBUG
+[Web:BoldAndItalicTagsCheckI"!Replace this <b> tag by <strong>.(ÔÃ¢ÄûÿÿÿÿHÕRMINORZBUG
+eWeb:UnsupportedTagsInHtml5CheckI"&Remove this deprecated "font" element.(ÔÃ¢ÄûÿÿÿÿHÖRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckI"&Remove this deprecated "font" element.(ÔÃ¢ÄûÿÿÿÿH×RMAJORZBUG
+[Web:BoldAndItalicTagsCheckJ"!Replace this <b> tag by <strong>.(¥¤´ŸûÿÿÿÿHØRMINORZBUG
+eWeb:UnsupportedTagsInHtml5CheckJ"&Remove this deprecated "font" element.(¥¤´ŸûÿÿÿÿHÙRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckJ"&Remove this deprecated "font" element.(¥¤´ŸûÿÿÿÿHÚRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckK"&Remove this deprecated "font" element.(ìÂÌHÛRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckK"&Remove this deprecated "font" element.(ìÂÌHÜRMAJORZBUG
+VWeb:BoldAndItalicTagsCheckL"!Replace this <b> tag by <strong>.(ğ±â’HİRMINORZBUG
+`Web:UnsupportedTagsInHtml5CheckL"&Remove this deprecated "font" element.(ğ±â’HŞRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckL"&Remove this deprecated "font" element.(ğ±â’HßRMAJORZBUG
+UWeb:BoldAndItalicTagsCheckM"!Replace this <b> tag by <strong>.(Ù¥HàRMINORZBUG
+_Web:UnsupportedTagsInHtml5CheckM"&Remove this deprecated "font" element.(Ù¥HáRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckN"&Remove this deprecated "font" element.(„¤¬HâRMAJORZBUG
+VWeb:BoldAndItalicTagsCheckN"!Replace this <b> tag by <strong>.(„¤¬HãRMINORZBUG
+`Web:UnsupportedTagsInHtml5CheckN"&Remove this deprecated "font" element.(„¤¬HäRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckN"&Remove this deprecated "font" element.(„¤¬HåRMAJORZBUG
+[Web:BoldAndItalicTagsCheckO"!Replace this <b> tag by <strong>.(©¾—øÿÿÿÿHæRMINORZBUG
+eWeb:UnsupportedTagsInHtml5CheckO"&Remove this deprecated "font" element.(©¾—øÿÿÿÿHçRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckO"&Remove this deprecated "font" element.(©¾—øÿÿÿÿHèRMAJORZBUG
+VWeb:BoldAndItalicTagsCheckP"!Replace this <b> tag by <strong>.(ÉÖ“HéRMINORZBUG
+`Web:UnsupportedTagsInHtml5CheckP"&Remove this deprecated "font" element.(ÉÖ“HêRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckP"&Remove this deprecated "font" element.(ÉÖ“HëRMAJORZBUG
+[Web:BoldAndItalicTagsCheckQ"!Replace this <b> tag by <strong>.(…ˆ·ÆùÿÿÿÿHìRMINORZBUG
+eWeb:UnsupportedTagsInHtml5CheckQ"&Remove this deprecated "font" element.(…ˆ·ÆùÿÿÿÿHíRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckQ"&Remove this deprecated "font" element.(…ˆ·ÆùÿÿÿÿHîRMAJORZBUG
+UWeb:BoldAndItalicTagsCheckS"!Replace this <b> tag by <strong>.(¥§ÑHïRMINORZBUG
+_Web:UnsupportedTagsInHtml5CheckS"&Remove this deprecated "font" element.(¥§ÑHğRMAJORZBUG
+_Web:UnsupportedTagsInHtml5CheckS"&Remove this deprecated "font" element.(¥§ÑHñRMAJORZBUG
+_Web:UnsupportedTagsInHtml5CheckS"&Remove this deprecated "font" element.(¥§ÑHòRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckU"&Remove this deprecated "font" element.(††„ùÿÿÿÿHóRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckU"&Remove this deprecated "font" element.(††„ùÿÿÿÿHôRMAJORZBUG
+[Web:BoldAndItalicTagsCheckU"!Replace this <b> tag by <strong>.(††„ùÿÿÿÿHõRMINORZBUG
+eWeb:UnsupportedTagsInHtml5CheckU"&Remove this deprecated "font" element.(††„ùÿÿÿÿHöRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckU"&Remove this deprecated "font" element.(††„ùÿÿÿÿH÷RMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckW"&Remove this deprecated "font" element.(ë§Ã¾HøRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckW"&Remove this deprecated "font" element.(ë§Ã¾HùRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckW"&Remove this deprecated "font" element.(ë§Ã¾HúRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckY"&Remove this deprecated "font" element.(ï¨ÙHûRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckY"&Remove this deprecated "font" element.(ï¨ÙHüRMAJORZBUG
+VWeb:BoldAndItalicTagsCheckY"!Replace this <b> tag by <strong>.(ï¨ÙHıRMINORZBUG
+`Web:UnsupportedTagsInHtml5CheckY"&Remove this deprecated "font" element.(ï¨ÙHşRMAJORZBUG
+`Web:UnsupportedTagsInHtml5CheckY"&Remove this deprecated "font" element.(ï¨ÙHÿRMAJORZBUG
+[Web:BoldAndItalicTagsCheckZ"!Replace this <b> tag by <strong>.(Äõ†•ùÿÿÿÿH€RMINORZBUG
+eWeb:UnsupportedTagsInHtml5CheckZ"&Remove this deprecated "font" element.(Äõ†•ùÿÿÿÿHRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5CheckZ"&Remove this deprecated "font" element.(Äõ†•ùÿÿÿÿH‚RMAJORZBUG
+VWeb:BoldAndItalicTagsCheck["!Replace this <b> tag by <strong>.(Ìæ“¿HƒRMINORZBUG
+`Web:UnsupportedTagsInHtml5Check["&Remove this deprecated "font" element.(Ìæ“¿H„RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check["&Remove this deprecated "font" element.(Ìæ“¿H…RMAJORZBUG
+[Web:BoldAndItalicTagsCheck\"!Replace this <b> tag by <strong>.(úÌÈ³ùÿÿÿÿH†RMINORZBUG
+eWeb:UnsupportedTagsInHtml5Check\"&Remove this deprecated "font" element.(úÌÈ³ùÿÿÿÿH‡RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check\"&Remove this deprecated "font" element.(úÌÈ³ùÿÿÿÿHˆRMAJORZBUG
+VWeb:BoldAndItalicTagsCheck]"!Replace this <b> tag by <strong>.(ĞºØˆH‰RMINORZBUG
+`Web:UnsupportedTagsInHtml5Check]"&Remove this deprecated "font" element.(ĞºØˆHŠRMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check]"&Remove this deprecated "font" element.(ĞºØˆH‹RMAJORZBUG
+[Web:BoldAndItalicTagsCheck^"!Replace this <b> tag by <strong>.(ƒ£”åûÿÿÿÿHŒRMINORZBUG
+eWeb:UnsupportedTagsInHtml5Check^"&Remove this deprecated "font" element.(ƒ£”åûÿÿÿÿHRMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check^"&Remove this deprecated "font" element.(ƒ£”åûÿÿÿÿHRMAJORZBUG
+VWeb:BoldAndItalicTagsCheck_"!Replace this <b> tag by <strong>.(³ˆ§HRMINORZBUG
+`Web:UnsupportedTagsInHtml5Check_"&Remove this deprecated "font" element.(³ˆ§HRMAJORZBUG
+`Web:UnsupportedTagsInHtml5Check_"&Remove this deprecated "font" element.(³ˆ§H‘RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check`"&Remove this deprecated "font" element.(ú•ŒÿÿÿÿÿH’RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Check`"&Remove this deprecated "font" element.(ú•ŒÿÿÿÿÿH“RMAJORZBUG
+VWeb:BoldAndItalicTagsCheckb"!Replace this <b> tag by <strong>.(•›•íH”RMINORZBUG
+`Web:UnsupportedTagsInHtml5Checkb"&Remove this deprecated "font" element.(•›•íH•RMAJORZBUG
+`Web:UnsupportedTagsInHtml5Checkb"&Remove this deprecated "font" element.(•›•íH–RMAJORZBUG
+[Web:BoldAndItalicTagsCheckc"!Replace this <b> tag by <strong>.(·İí øÿÿÿÿH—RMINORZBUG
+eWeb:UnsupportedTagsInHtml5Checkc"&Remove this deprecated "font" element.(·İí øÿÿÿÿH˜RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checkc"&Remove this deprecated "font" element.(·İí øÿÿÿÿH™RMAJORZBUG
+[Web:BoldAndItalicTagsChecke"!Replace this <b> tag by <strong>.(°ô±‡úÿÿÿÿHšRMINORZBUG
+eWeb:UnsupportedTagsInHtml5Checke"&Remove this deprecated "font" element.(°ô±‡úÿÿÿÿH›RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checke"&Remove this deprecated "font" element.(°ô±‡úÿÿÿÿHœRMAJORZBUG
+[Web:BoldAndItalicTagsCheckg"!Replace this <b> tag by <strong>.(ô… ÿıÿÿÿÿHRMINORZBUG
+eWeb:UnsupportedTagsInHtml5Checkg"&Remove this deprecated "font" element.(ô… ÿıÿÿÿÿHRMAJORZBUG
+`Web:UnsupportedTagsInHtml5Checkh"&Remove this deprecated "font" element.(ë¾˜HŸRMAJORZBUG
+[Web:BoldAndItalicTagsCheckj"!Replace this <b> tag by <strong>.(Ş»úÇüÿÿÿÿH RMINORZBUG
+eWeb:UnsupportedTagsInHtml5Checkj"&Remove this deprecated "font" element.(Ş»úÇüÿÿÿÿH¡RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checkj"&Remove this deprecated "font" element.(Ş»úÇüÿÿÿÿH¢RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checkj"&Remove this deprecated "font" element.(Ş»úÇüÿÿÿÿH£RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checkl"&Remove this deprecated "font" element.(ü—¸°ıÿÿÿÿH¤RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checkl"&Remove this deprecated "font" element.(ü—¸°ıÿÿÿÿH¥RMAJORZBUG
+[Web:BoldAndItalicTagsCheckl"!Replace this <b> tag by <strong>.(ü—¸°ıÿÿÿÿH¦RMINORZBUG
+[Web:BoldAndItalicTagsCheckm"!Replace this <b> tag by <strong>.(øÖ‡¤üÿÿÿÿH§RMINORZBUG
+eWeb:UnsupportedTagsInHtml5Checkm"&Remove this deprecated "font" element.(øÖ‡¤üÿÿÿÿH¨RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checkm"&Remove this deprecated "font" element.(øÖ‡¤üÿÿÿÿH©RMAJORZBUG
+[Web:BoldAndItalicTagsCheckn"!Replace this <b> tag by <strong>.(ØàÄ›ûÿÿÿÿHªRMINORZBUG
+eWeb:UnsupportedTagsInHtml5Checkn"&Remove this deprecated "font" element.(ØàÄ›ûÿÿÿÿH«RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checkn"&Remove this deprecated "font" element.(ØàÄ›ûÿÿÿÿH¬RMAJORZBUG
+[Web:BoldAndItalicTagsChecko"!Replace this <b> tag by <strong>.(ÅõüŸıÿÿÿÿH­RMINORZBUG
+eWeb:UnsupportedTagsInHtml5Checko"&Remove this deprecated "font" element.(ÅõüŸıÿÿÿÿH®RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checko"&Remove this deprecated "font" element.(ÅõüŸıÿÿÿÿH¯RMAJORZBUG
+[Web:BoldAndItalicTagsCheckp"!Replace this <b> tag by <strong>.(ãÄıÿÿÿÿH°RMINORZBUG
+eWeb:UnsupportedTagsInHtml5Checkp"&Remove this deprecated "font" element.(ãÄıÿÿÿÿH±RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checkp"&Remove this deprecated "font" element.(ãÄıÿÿÿÿH²RMAJORZBUG
+[Web:BoldAndItalicTagsChecks"!Replace this <b> tag by <strong>.(øÖ‡¤üÿÿÿÿH³RMINORZBUG
+eWeb:UnsupportedTagsInHtml5Checks"&Remove this deprecated "font" element.(øÖ‡¤üÿÿÿÿH´RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checks"&Remove this deprecated "font" element.(øÖ‡¤üÿÿÿÿHµRMAJORZBUG
+Y	Web:S1827v")Remove this deprecated "WIDTH" attribute.(Õ»ÂøÿÿÿÿH¶RMAJORZ
+CODE_SMELL
+eWeb:UnsupportedTagsInHtml5Checkv"&Remove this deprecated "font" element.(Õ»ÂøÿÿÿÿH·RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checkv"&Remove this deprecated "font" element.(Õ»ÂøÿÿÿÿH¸RMAJORZBUG
+eWeb:UnsupportedTagsInHtml5Checkv"&Remove this deprecated "font" element.(Õ»ÂøÿÿÿÿH¹RMAJORZBUG
+[Web:BoldAndItalicTagsChecky"!Replace this <b> tag by <strong>.(ØÌ×ˆşÿÿÿÿHºRMINORZBUG
+[Web:BoldAndItalicTagsChecky"!Replace this <b> tag by <strong>.(ØÌ×ˆşÿÿÿÿH»RMINORZBUG
+[Web:BoldAndItalicTagsCheckz"!Replace this <b> tag by <strong>.(˜æŠ–ıÿÿÿÿH¼RMINORZBUG
+VWeb:BoldAndItalicTagsCheck}"!Replace this <b> tag by <strong>.(ö–¡®H½RMINORZBUG
+[Web:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(ÅÍŸüÿÿÿÿH¾RMINORZBUG
+[Web:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(ÅÍŸüÿÿÿÿH¿RMINORZBUG
+[Web:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(ÅÍŸüÿÿÿÿHÀRMINORZBUG
+WWeb:BoldAndItalicTagsCheck€"!Replace this <b> tag by <strong>.(„Í™‰HÁRMINORZBUG
+VWeb:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(õ£¢dHÂRMINORZBUG
+RWeb:BoldAndItalicTagsCheck"Replace this <i> tag by <em>.(õ£¢dHÃRMINORZBUG
+\Web:BoldAndItalicTagsCheck‚"!Replace this <b> tag by <strong>.(èÉÔ«úÿÿÿÿHÄRMINORZBUG
+U	Web:S1827‡")Remove this deprecated "WIDTH" attribute.(ò¢Ò™HÅRMAJORZ
+CODE_SMELL
+aWeb:UnsupportedTagsInHtml5Check‡"&Remove this deprecated "font" element.(ò¢Ò™HÆRMAJORZBUG
+aWeb:UnsupportedTagsInHtml5Check‡"&Remove this deprecated "font" element.(ò¢Ò™HÇRMAJORZBUG
+aWeb:UnsupportedTagsInHtml5Check‡"&Remove this deprecated "font" element.(ò¢Ò™HÈRMAJORZBUG
+WWeb:BoldAndItalicTagsCheckŠ"!Replace this <b> tag by <strong>.(Ş‘ŠHÉRMINORZBUG
+aWeb:UnsupportedTagsInHtml5CheckŠ"&Remove this deprecated "font" element.(Ş‘ŠHÊRMAJORZBUG
+aWeb:UnsupportedTagsInHtml5CheckŠ"&Remove this deprecated "font" element.(Ş‘ŠHËRMAJORZBUG
+aWeb:UnsupportedTagsInHtml5CheckŠ"&Remove this deprecated "font" element.(Ş‘ŠHÌRMAJORZBUG
+\Web:BoldAndItalicTagsCheckŒ"!Replace this <b> tag by <strong>.(ìÔÉòøÿÿÿÿHÍRMINORZBUG
+\Web:BoldAndItalicTagsCheckŒ"!Replace this <b> tag by <strong>.(ìÔÉòøÿÿÿÿHÎRMINORZBUG
+WWeb:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(àÓÑıHÏRMINORZBUG
+aWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(àÓÑıHĞRMAJORZBUG
+aWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(àÓÑıHÑRMAJORZBUG
+aWeb:UnsupportedTagsInHtml5Check"&Remove this deprecated "font" element.(àÓÑıHÒRMAJORZBUG
+WWeb:BoldAndItalicTagsCheck"!Replace this <b> tag by <strong>.(Ûïü•HÓRMINORZBUG
+WWeb:BoldAndItalicTagsCheck‘"!Replace this <b> tag by <strong>.(Ï´HÔRMINORZBUG
+aWeb:UnsupportedTagsInHtml5Check‘"&Remove this deprecated "font" element.(Ï´HÕRMAJORZBUG
+aWeb:UnsupportedTagsInHtml5Check‘"&Remove this deprecated "font" element.(Ï´HÖRMAJORZBUG
+aWeb:UnsupportedTagsInHtml5Check‘"&Remove this deprecated "font" element.(Ï´H×RMAJORZBUG
+U	Web:S1827–")Remove this deprecated "width" attribute.(›ÄîHØRMAJORZ
+CODE_SMELL

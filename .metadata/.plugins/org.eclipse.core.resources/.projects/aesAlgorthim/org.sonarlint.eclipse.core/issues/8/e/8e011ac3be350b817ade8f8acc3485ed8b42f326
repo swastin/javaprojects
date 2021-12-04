@@ -1,0 +1,28 @@
+
+b
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHÇRINFOZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Š’Ï¯8‚Ñ™ÈÑ/HÔRMAJORZ
+CODE_SMELL
+o
+java:S1128"7Remove this unused import 'java.security.SecureRandom'.(›éè™úÿÿÿÿ8éå†ÈÑ/H‚RMINORZ
+CODE_SMELL
+f
+java:S1128"3Remove this unused import 'javax.crypto.SecretKey'.(±•¸×8éå†ÈÑ/H†RMINORZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHÈRINFOZ
+CODE_SMELL
+{
+java:S1128"CRemove this unused import 'java.security.NoSuchAlgorithmException'.(ŒòÍ¾şÿÿÿÿ8³ÈÕÇÑ/HÎRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªåâšşÿÿÿÿHÉRMINORZ
+CODE_SMELL
+n
+java:S1128"6Remove this unused import 'javax.crypto.KeyGenerator'.(ÑÃ’§ÿÿÿÿÿ8éå†ÈÑ/H„RMINORZ
+CODE_SMELL
+f
+java:S1128".Remove this unused import 'java.security.Key'.(ŞÃ“úÿÿÿÿ8˜ÕİÇÑ/HãRMINORZ
+CODE_SMELL
+k	java:S106"9Replace this use of System.out or System.err by a logger.(œÈº¬8´ü€ÉÑ/H´RMAJORZ
+CODE_SMELL

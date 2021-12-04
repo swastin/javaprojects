@@ -1,0 +1,28 @@
+1635831308612	Delete element
+1635832052939	Delete element
+1635832828947	Move file
+1635832837598	Move 'META-INF' to 'resources'
+1635832841145	Move 'persistence.xml' to 'META-INF'
+1635839531501	Delete elements
+1635858045956	Delete elements
+1635858482782	Delete elements
+1635858488156	Delete element
+1635925716466	Move compilation unit
+1635925732131	Delete element
+1635947740518	Delete element
+1635948049214	Delete element
+1635965605703	Move 'index.jsp' to 'WEB-INF'
+1635965610428	Move 'style.css' to 'WEB-INF'
+1635965655190	Move 'index.jsp' to 'webapp'
+1635965659695	Move 'style.css' to 'webapp'
+1635966126354	Delete element
+1635966699596	Delete element
+1635968205319	Move 'web.xml' to 'webapp'
+1635968271504	Delete element
+1636025679067	Delete element
+1636197582492	Rename compilation unit 'UserServices.java'
+1636197646788	Delete element
+1636217416145	Move 'META-INF' to 'webapp'
+1636217443955	Move 'persistence.xml' to 'META-INF'
+1636217451127	Delete element
+1636217506045	Move 'persistence.xml' to 'META-INF'

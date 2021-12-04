@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/example/www/PhoneBanking/AccountType.java=UTF-8
+encoding//src/main/java/com/example/www/PhoneBanking/BillInfo.java=UTF-8
+encoding//src/main/java/com/example/www/PhoneBanking/CompletionCode.java=UTF-8
+encoding//src/main/java/com/example/www/PhoneBanking/Payee.java=UTF-8
+encoding//src/main/java/com/example/www/PhoneBanking/VerificationCode.java=UTF-8
+encoding//src/main/java/org/example/www/PhoneBanking/PhoneBanking_PortType.java=UTF-8
+encoding//src/main/java/org/example/www/PhoneBanking/PhoneBanking_Service.java=UTF-8
+encoding//src/main/java/org/example/www/PhoneBanking/PhoneBanking_ServiceLocator.java=UTF-8

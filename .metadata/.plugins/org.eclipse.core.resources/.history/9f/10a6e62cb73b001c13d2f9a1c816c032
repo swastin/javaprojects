@@ -1,0 +1,146 @@
+package com.EmployeeManagmentSystem.Model;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.sql.Timestamp;
+import java.util.List;
+
+
+/**
+ * The persistent class for the departments database table.
+ * 
+ */
+@Entity
+@Table(name="departments")
+@NamedQuery(name="Department.findAll", query="SELECT d FROM Department d")
+public class Department implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(unique=true, nullable=false)
+	private int id;
+
+	private Timestamp createtime;
+
+	@Column(length=45)
+	private String departmentname;
+
+	@Column(name="dept_name", nullable=false, length=40)
+	private String deptName;
+
+	@Column(name="dept_no", unique=true, nullable=false, length=4)
+	private String deptNo;
+
+	@Column(unique=true, nullable=false)
+	private int id;
+
+	private int isDeleted;
+
+	@Column(length=255)
+	private String name;
+
+	private Timestamp updatetime;
+
+	//bi-directional many-to-one association to Employee
+	@OneToMany(mappedBy="department")
+	private List<Employee> employees;
+
+	public Department() {
+	}
+
+	public int getId() {
+		return this.id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Timestamp getCreatetime() {
+		return this.createtime;
+	}
+
+	public void setCreatetime(Timestamp createtime) {
+		this.createtime = createtime;
+	}
+
+	public String getDepartmentname() {
+		return this.departmentname;
+	}
+
+	public void setDepartmentname(String departmentname) {
+		this.departmentname = departmentname;
+	}
+
+	public String getDeptName() {
+		return this.deptName;
+	}
+
+	public void setDeptName(String deptName) {
+		this.deptName = deptName;
+	}
+
+	public String getDeptNo() {
+		return this.deptNo;
+	}
+
+	public void setDeptNo(String deptNo) {
+		this.deptNo = deptNo;
+	}
+
+	public int getId() {
+		return this.id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getIsDeleted() {
+		return this.isDeleted;
+	}
+
+	public void setIsDeleted(int isDeleted) {
+		this.isDeleted = isDeleted;
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public Timestamp getUpdatetime() {
+		return this.updatetime;
+	}
+
+	public void setUpdatetime(Timestamp updatetime) {
+		this.updatetime = updatetime;
+	}
+
+	public List<Employee> getEmployees() {
+		return this.employees;
+	}
+
+	public void setEmployees(List<Employee> employees) {
+		this.employees = employees;
+	}
+
+	public Employee addEmployee(Employee employee) {
+		getEmployees().add(employee);
+		employee.setDepartment(this);
+
+		return employee;
+	}
+
+	public Employee removeEmployee(Employee employee) {
+		getEmployees().remove(employee);
+		employee.setDepartment(null);
+
+		return employee;
+	}
+
+}

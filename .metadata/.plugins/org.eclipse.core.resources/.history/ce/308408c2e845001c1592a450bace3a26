@@ -1,0 +1,21 @@
+package com.json;
+
+import jakarta.json.bind.Jsonb;
+import jakarta.json.bind.JsonbBuilder;
+
+public class Apps {
+
+	public Apps() {}
+
+	public static void main(String[] args) {
+		Jsonb jsonb= JsonbBuilder.create();
+		Employee e=new Employee();
+		e.setId(1);
+		e.setName("swastin");
+		e.setPhone_number(82);
+		String s=jsonb.toJson(e);
+		System.out.println(s);
+
+	}
+
+}

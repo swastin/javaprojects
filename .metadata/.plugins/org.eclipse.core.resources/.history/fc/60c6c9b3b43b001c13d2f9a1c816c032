@@ -1,0 +1,90 @@
+package com.Ems.demo;
+
+import java.io.Serializable;
+import javax.persistence.*;
+
+/**
+ * The primary key class for the employees database table.
+ * 
+ */
+@Embeddable
+public class EmployeePK implements Serializable {
+	//default serial version id, required for serializable classes.
+	private static final long serialVersionUID = 1L;
+
+	@Column(unique=true, nullable=false)
+	private int id;
+
+	@Column(unique=true, nullable=false)
+	private int designationsId;
+
+	@Column(insertable=false, updatable=false, unique=true, nullable=false)
+	private int departmentId;
+
+	@Column(unique=true, nullable=false)
+	private int roles_Id;
+
+	@Column(name="users_id", unique=true, nullable=false)
+	private int usersId;
+
+	public EmployeePK() {
+	}
+	public int getId() {
+		return this.id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public int getDesignationsId() {
+		return this.designationsId;
+	}
+	public void setDesignationsId(int designationsId) {
+		this.designationsId = designationsId;
+	}
+	public int getDepartmentId() {
+		return this.departmentId;
+	}
+	public void setDepartmentId(int departmentId) {
+		this.departmentId = departmentId;
+	}
+	public int getRoles_Id() {
+		return this.roles_Id;
+	}
+	public void setRoles_Id(int roles_Id) {
+		this.roles_Id = roles_Id;
+	}
+	public int getUsersId() {
+		return this.usersId;
+	}
+	public void setUsersId(int usersId) {
+		this.usersId = usersId;
+	}
+
+	public boolean equals(Object other) {
+		if (this == other) {
+			return true;
+		}
+		if (!(other instanceof EmployeePK)) {
+			return false;
+		}
+		EmployeePK castOther = (EmployeePK)other;
+		return 
+			(this.id == castOther.id)
+			&& (this.designationsId == castOther.designationsId)
+			&& (this.departmentId == castOther.departmentId)
+			&& (this.roles_Id == castOther.roles_Id)
+			&& (this.usersId == castOther.usersId);
+	}
+
+	public int hashCode() {
+		final int prime = 31;
+		int hash = 17;
+		hash = hash * prime + this.id;
+		hash = hash * prime + this.designationsId;
+		hash = hash * prime + this.departmentId;
+		hash = hash * prime + this.roles_Id;
+		hash = hash * prime + this.usersId;
+		
+		return hash;
+	}
+}

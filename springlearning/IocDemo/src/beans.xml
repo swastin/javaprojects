@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean class="com.iocDemo.Employee" name="employeeId">
+		<!-- setter injection -->
+		<!-- <property name="name" value="swastin"></property> <property name="salary" 
+			value="20000.00"></property> -->
+		<!-- constructor injection -->
+		<!-- By index -->
+
+		<!-- <constructor-arg index="0" type="java.lang.String" value="swastin 
+			sahoo"></constructor-arg> <constructor-arg index="1" type="double" value="2000.00"></constructor-arg> -->
+
+		<!-- By name -->
+
+		<!-- <constructor-arg name="name" type="java.lang.String" value="swastin 
+			sahoo1"></constructor-arg> <constructor-arg name="salary" type="double" value="20000.00"></constructor-arg> -->
+	</bean>
+
+	<bean class="com.iocDemo.collectionInjection.CollectionInjectionDemo" name="collectionDemo">
+		<property name="name" value="swastin" />
+		<property name="phones">
+			<list>
+				<value>8280861209</value>
+				<value>8280861208</value>
+				<value>8280861207</value>
+				<value>8280861206</value>
+				<null />
+			</list>
+		</property>
+		<property name="address">
+			<set>
+				<value>2rbf59/5,unit-9,bhubaneswar</value>
+				<value>2rbf59/6,unit-9,bhubanseawar</value>
+				<value>2rbf59/7,unit-9,bhubanseawar</value>
+				<value>2rbf59/8,unit-9,bhubanseawar</value>
+				<null />
+			</set>
+		</property>
+		
+		<property name="courses">
+		<map>
+		<entry key="java" value="6days"/>
+		<entry key="c++" value="15months"/>
+		</map>
+		
+		
+		</property>
+	</bean>
+</beans>

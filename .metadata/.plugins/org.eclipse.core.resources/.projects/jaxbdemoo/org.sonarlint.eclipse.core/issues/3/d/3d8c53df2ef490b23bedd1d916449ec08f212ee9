@@ -1,0 +1,12 @@
+
+k	java:S106"9Replace this use of System.out or System.err by a logger.(Î­8¹ü£€Ğ/H‚RMAJORZ
+CODE_SMELL
+h
+java:S2209"5Change this instance-reference to a static reference.(ìğÆ¸8¹ü£€Ğ/H€RMAJORZ
+CODE_SMELL
+‘
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ºÒüİøÿÿÿÿ8¹ü£€Ğ/HƒRMINORZ
+CODE_SMELL
+b
+java:S1135"2Complete the task associated to this TODO comment.(ƒŠ® úÿÿÿÿHğRINFOZ
+CODE_SMELL

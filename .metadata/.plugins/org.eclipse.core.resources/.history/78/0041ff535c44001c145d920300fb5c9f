@@ -1,0 +1,38 @@
+package com.MessageDigestAlgo;
+
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+public class ShaDemo {
+	
+	 public static String bytesToHex(byte[] encodedhash) {
+	        StringBuilder sb = new StringBuilder();
+	        for (byte b : encodedhash) {
+	            sb.append(String.format("%02x", b));
+	        }
+	        return sb.toString();
+	    }
+public ShaDemo() {}
+	public static void main(String[] args) throws NoSuchAlgorithmException 
+	{
+	
+		MessageDigest digest = MessageDigest.getInstance("SHA3-256");
+		String originalString = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate sed lacus commodo placerat. Aliquam congue at ligula vitae vulputate. Vestibulum sed consequat ipsum, sed tincidunt erat. Aliquam sagittis nibh et aliquam pretium. Aenean elementum, ex vitae porttitor iaculis, nisi urna vestibulum nisi, vitae iaculis urna metus et eros. Nullam justo mi, dignissim sodales libero id, pretium ornare orci. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus, tellus dapibus aliquet dignissim, neque purus bibendum leo, quis congue lacus ligula eget diam. Suspendisse rhoncus velit non venenatis sagittis. Aenean sit amet mi eget erat accumsan suscipit. In scelerisque pulvinar risus at finibus. Aenean imperdiet leo nec nunc feugiat luctus.\r\n"
+				+ "\r\n"
+				+ "Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed fringilla ante risus, quis consequat ligula imperdiet sodales. Pellentesque ultrices nibh vitae nisl ultricies varius. Integer vitae mollis orci. Aliquam erat volutpat. Mauris pretium eros sed tortor fermentum, vulputate dapibus lectus mollis. Sed ut tellus vel purus commodo placerat eu in elit. Etiam id aliquet ligula. Nulla nec nisi pharetra, cursus lacus et, imperdiet nisl.\r\n"
+				+ "\r\n"
+				+ "Proin non magna in felis ultrices elementum. Suspendisse libero libero, accumsan eu laoreet ac, molestie vitae metus. Phasellus vitae gravida diam. Morbi vestibulum ut nulla rhoncus vulputate. Nullam ullamcorper mi orci, sed imperdiet ante congue consequat. Vestibulum mauris diam, ultricies sed justo et, fringilla fringilla risus. Mauris ullamcorper eleifend ante vitae ultricies. Donec at justo erat. Sed suscipit, neque id dignissim vehicula, felis nisl pharetra lacus, ut volutpat ipsum neque id orci. Nam gravida justo diam, in convallis tellus egestas sed. Pellentesque gravida mollis leo eu aliquam. Nullam laoreet justo in vestibulum scelerisque. Integer porttitor scelerisque nibh, in sollicitudin sem ornare non.\r\n"
+				+ "\r\n"
+				+ "Vestibulum placerat pellentesque mi vel tincidunt. Sed eget libero augue. Nullam varius massa non metus fringilla, vel venenatis odio ullamcorper. Donec tincidunt ornare purus vitae tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi fringilla vehicula orci id tempus. Proin suscipit imperdiet mattis. Etiam vestibulum varius ex sit amet aliquet. Maecenas metus est, convallis vehicula aliquam eu, aliquet at mauris. In hac habitasse platea dictumst. Praesent tempor ultricies nunc ut pellentesque. Etiam mollis fringilla neque, sed elementum risus volutpat id. Nullam lobortis venenatis dui, sit amet rhoncus ligula interdum et. In dictum arcu vel nulla viverra, a fermentum lorem fringilla.\r\n"
+				+ "\r\n"
+				+ "Praesent commodo et elit ut lacinia. Quisque quis nulla vestibulum, elementum diam tempor, dictum dolor. Donec ultrices ut urna non volutpat. Fusce magna elit, sollicitudin ut enim et, scelerisque dapibus nibh. Quisque eu urna vitae nunc ullamcorper ornare. Morbi mollis, ligula eget ultrices lacinia, mauris eros faucibus metus, at egestas nisi lacus in sem. Praesent dictum volutpat neque id pellentesque. Aenean pellentesque, est at ultrices tristique, velit nunc ornare erat, non venenatis sapien elit finibus velit. Nam dapibus purus in augue gravida suscipit. Aenean id nisl diam. Phasellus vel pharetra arcu. Maecenas tortor risus, gravida sit amet feugiat at, laoreet a nulla.";
+		byte[] encodedhash = digest.digest( originalString.getBytes(StandardCharsets.US_ASCII));
+		
+		System.out.println(ShaDemo.bytesToHex(encodedhash));
+		
+		
+
+		
+}
+}

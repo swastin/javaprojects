@@ -1,0 +1,14 @@
+package com.jaxb.Bookstore;
+
+import jakarta.xml.bind.JAXBContext;
+
+public class App {
+
+	public App() {	}
+
+	public static void main(String[] args) {
+		JAXBContext Context =JAXBContext.newInstance(Book.class)
+
+	}
+
+}

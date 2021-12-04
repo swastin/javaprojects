@@ -1,0 +1,284 @@
+package com.Ems.demo;
+
+import java.io.Serializable;
+import javax.persistence.*;
+import java.util.Date;
+import java.sql.Timestamp;
+
+
+/**
+ * The persistent class for the employees database table.
+ * 
+ */
+@Entity
+@Table(name="employees")
+@NamedQuery(name="Employee.findAll", query="SELECT e FROM Employee e")
+public class Employee implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	@EmbeddedId
+	private EmployeePK id;
+
+	@Temporal(TemporalType.DATE)
+	@Column(name="birth_date", nullable=false)
+	private Date birthDate;
+
+	private Timestamp createtime;
+
+	@Temporal(TemporalType.DATE)
+	private Date dateOfBirth;
+
+	@Column(length=255)
+	private String deg;
+
+	@Column(length=45)
+	private String emailId;
+
+	@Column(name="emp_no", unique=true, nullable=false)
+	private int empNo;
+
+	@Column(nullable=false)
+	private int employeeId;
+
+	@Column(name="first_name", nullable=false, length=14)
+	private String firstName;
+
+	@Column(length=45)
+	private String firstName;
+
+	@Column(nullable=false, length=1)
+	private String gender;
+
+	@Column(length=8)
+	private String gender;
+
+	@Temporal(TemporalType.DATE)
+	@Column(name="hire_date", nullable=false)
+	private Date hireDate;
+
+	@Temporal(TemporalType.DATE)
+	private Date hireDate;
+
+	@Column(unique=true, nullable=false)
+	private int id;
+
+	private int isDeleted;
+
+	@Column(name="last_name", nullable=false, length=16)
+	private String lastName;
+
+	@Column(length=45)
+	private String lastName;
+
+	private int managerId;
+
+	@Column(length=255)
+	private String name;
+
+	private int phoneNumber;
+
+	private double salary;
+
+	private Timestamp updatetime;
+
+	//bi-directional many-to-one association to Department
+	@ManyToOne
+	@JoinColumn(name="DepartmentId", nullable=false, insertable=false, updatable=false)
+	private Department department;
+
+	public Employee() {
+	}
+
+	public EmployeePK getId() {
+		return this.id;
+	}
+
+	public void setId(EmployeePK id) {
+		this.id = id;
+	}
+
+	public Date getBirthDate() {
+		return this.birthDate;
+	}
+
+	public void setBirthDate(Date birthDate) {
+		this.birthDate = birthDate;
+	}
+
+	public Timestamp getCreatetime() {
+		return this.createtime;
+	}
+
+	public void setCreatetime(Timestamp createtime) {
+		this.createtime = createtime;
+	}
+
+	public Date getDateOfBirth() {
+		return this.dateOfBirth;
+	}
+
+	public void setDateOfBirth(Date dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+
+	public String getDeg() {
+		return this.deg;
+	}
+
+	public void setDeg(String deg) {
+		this.deg = deg;
+	}
+
+	public String getEmailId() {
+		return this.emailId;
+	}
+
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+
+	public int getEmpNo() {
+		return this.empNo;
+	}
+
+	public void setEmpNo(int empNo) {
+		this.empNo = empNo;
+	}
+
+	public int getEmployeeId() {
+		return this.employeeId;
+	}
+
+	public void setEmployeeId(int employeeId) {
+		this.employeeId = employeeId;
+	}
+
+	public String getFirstName() {
+		return this.firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getFirstName() {
+		return this.firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getGender() {
+		return this.gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public String getGender() {
+		return this.gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+
+	public Date getHireDate() {
+		return this.hireDate;
+	}
+
+	public void setHireDate(Date hireDate) {
+		this.hireDate = hireDate;
+	}
+
+	public Date getHireDate() {
+		return this.hireDate;
+	}
+
+	public void setHireDate(Date hireDate) {
+		this.hireDate = hireDate;
+	}
+
+	public int getId() {
+		return this.id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public int getIsDeleted() {
+		return this.isDeleted;
+	}
+
+	public void setIsDeleted(int isDeleted) {
+		this.isDeleted = isDeleted;
+	}
+
+	public String getLastName() {
+		return this.lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public String getLastName() {
+		return this.lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+
+	public int getManagerId() {
+		return this.managerId;
+	}
+
+	public void setManagerId(int managerId) {
+		this.managerId = managerId;
+	}
+
+	public String getName() {
+		return this.name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public int getPhoneNumber() {
+		return this.phoneNumber;
+	}
+
+	public void setPhoneNumber(int phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+
+	public double getSalary() {
+		return this.salary;
+	}
+
+	public void setSalary(double salary) {
+		this.salary = salary;
+	}
+
+	public Timestamp getUpdatetime() {
+		return this.updatetime;
+	}
+
+	public void setUpdatetime(Timestamp updatetime) {
+		this.updatetime = updatetime;
+	}
+
+	public Department getDepartment() {
+		return this.department;
+	}
+
+	public void setDepartment(Department department) {
+		this.department = department;
+	}
+
+}

@@ -1,0 +1,52 @@
+
+p	java:S106<"9Replace this use of System.out or System.err by a logger.(§¹ğæıÿÿÿÿ8‹ÈÖ’Ò/HÆRMAJORZ
+CODE_SMELL
+s
+java:S2095D"EUse try-with-resources or close this "Scanner" in a "finally" clause.(º¹èÆ8éÏ´©Ò/HÚ RBLOCKERZBUG
+‘
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÉüÔ¬úÿÿÿÿ8ª§——Ò/HäRMINORZ
+CODE_SMELL
+i
+java:S1128"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ8éÏ´©Ò/HË RMINORZ
+CODE_SMELL
+·
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(æ–¸É8¹¯Î‘Ò/HÃRCRITICALZ
+CODE_SMELL
+p	java:S106@"9Replace this use of System.out or System.err by a logger.(ÇŒ„øÿÿÿÿ8éÏ´©Ò/HÈ RMAJORZ
+CODE_SMELL
+{
+java:S2095;"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ÍëäÌøÿÿÿÿ8®ïØ§Ò/H« RBLOCKERZBUG
+v
+java:S2095"CUse try-with-resources or close this "Jsonb" in a "finally" clause.(¦Ş„ìüÿÿÿÿ8‹ÈÖ’Ò/HÇRBLOCKERZBUG
+k	java:S106?"9Replace this use of System.out or System.err by a logger.(èÛîŠ8Ï±Ï”Ò/H× RMAJORZ
+CODE_SMELL
+p	java:S106E"9Replace this use of System.out or System.err by a logger.(”·£øÿÿÿÿ8®ïØ§Ò/Hª RMAJORZ
+CODE_SMELL
+p	java:S1066"9Replace this use of System.out or System.err by a logger.(Å­Ëİúÿÿÿÿ8Ï±Ï”Ò/HÔRMAJORZ
+CODE_SMELL
+€
+java:S11927"JDefine a constant instead of duplicating this literal "file.json" 3 times.(œøÍ±8Àá²©Ò/H» RCRITICALZ
+CODE_SMELL
+v
+java:S20957"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(œøÍ±8€ó±—Ò/HöRBLOCKERZBUG
+p	java:S106A"9Replace this use of System.out or System.err by a logger.(Üôå–ıÿÿÿÿ8Ï±Ï”Ò/HÓRMAJORZ
+CODE_SMELL
+c
+java:S1128"0Remove this unused import 'java.io.InputStream'.(¹»º8éÏ´©Ò/HÉ RMINORZ
+CODE_SMELL
+f
+java:S1128
+".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Û¢¼Ò/H§!RMINORZ
+CODE_SMELL
+b
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8Û¢¼Ò/H©!RMINORZ
+CODE_SMELL
+`
+java:S1128".Remove this unused import 'jakarta.json.Json'.(‡Ñ¥T8Û¢¼Ò/H«!RMINORZ
+CODE_SMELL
+v
+java:S1128">Remove this unused import 'jakarta.json.stream.JsonGenerator'.(Ü¶Çøşÿÿÿÿ8Û¢¼Ò/H­!RMINORZ
+CODE_SMELL
+}
+java:S1128"ERemove this unused import 'jakarta.json.stream.JsonGeneratorFactory'.(ÕÚŠÒıÿÿÿÿ8Û¢¼Ò/H¯!RMINORZ
+CODE_SMELL

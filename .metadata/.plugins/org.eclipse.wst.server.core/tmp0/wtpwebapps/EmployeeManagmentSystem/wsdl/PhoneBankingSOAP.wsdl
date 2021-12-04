@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.example.org/PhoneBanking/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsd1="http://www.example.com/PhoneBanking" name="PhoneBanking" targetNamespace="http://www.example.org/PhoneBanking/">
+  	
+  <wsdl:types>
+    		
+    <xsd:schema targetNamespace="http://www.example.org/PhoneBanking/">
+      			
+      <xsd:element name="NewOperationResponse" type="xsd:string"/>
+      			
+      <xsd:element name="NewOperationRequest" type="xsd:string"/>
+      			
+      <xsd:element name="NewOperationRequest1">
+        				
+        <xsd:complexType>
+          					
+          <xsd:sequence>
+            						
+            <xsd:element name="input" type="xsd:string"/>
+            					
+          </xsd:sequence>
+          				
+        </xsd:complexType>
+        			
+      </xsd:element>
+      			
+      <xsd:element name="NewOperationResponse1">
+        				
+        <xsd:complexType>
+          					
+          <xsd:sequence>
+            						
+            <xsd:element name="output" type="xsd:string"/>
+            					
+          </xsd:sequence>
+          				
+        </xsd:complexType>
+        			
+      </xsd:element>
+      			
+      <xsd:element name="NewOperationRequest2">
+        				
+        <xsd:complexType>
+          					
+          <xsd:sequence>
+            						
+            <xsd:element name="input" type="xsd:string"/>
+            					
+          </xsd:sequence>
+          				
+        </xsd:complexType>
+        			
+      </xsd:element>
+      			
+      <xsd:element name="NewOperationResponse2">
+        				
+        <xsd:complexType>
+          					
+          <xsd:sequence>
+            						
+            <xsd:element name="output" type="xsd:string"/>
+            					
+          </xsd:sequence>
+          				
+        </xsd:complexType>
+        			
+      </xsd:element>
+      			
+      <xsd:element name="NewOperationRequest3">
+        				
+        <xsd:complexType>
+          					
+          <xsd:sequence>
+            						
+            <xsd:element name="input" type="xsd:string"/>
+            					
+          </xsd:sequence>
+          				
+        </xsd:complexType>
+        			
+      </xsd:element>
+      			
+      <xsd:element name="NewOperationResponse3">
+        				
+        <xsd:complexType>
+          					
+          <xsd:sequence>
+            						
+            <xsd:element name="output" type="xsd:string"/>
+            					
+          </xsd:sequence>
+          				
+        </xsd:complexType>
+        			
+      </xsd:element>
+      		
+    </xsd:schema>
+    		
+    <xsd:schema>
+      			
+      <xsd:import namespace="http://www.example.com/PhoneBanking" schemaLocation="PhoneBanking.xsd"/>
+      		
+    </xsd:schema>
+    	
+  </wsdl:types>
+  	
+  <wsdl:message name="NewOperationResponse">
+    		
+    <wsdl:part element="xsd1:VerificationCode" name="accountSummary"/>
+    	
+  </wsdl:message>
+  	
+  <wsdl:message name="NewOperationRequest">
+    		
+    <wsdl:part element="xsd1:AnnountInfo" name="accountInfo"/>
+    	
+  </wsdl:message>
+  	
+  <wsdl:message name="NewOperationRequestMsg">
+    		
+    <wsdl:part element="xsd1:AnnountInfo" name="accounInfo"/>
+    	
+  </wsdl:message>
+  	
+  <wsdl:message name="NewOperationResponseMsg">
+    		
+    <wsdl:part element="xsd1:PayeeList" name="payees"/>
+    	
+  </wsdl:message>
+  	
+  <wsdl:message name="NewOperationRequestMsg1">
+    		
+    <wsdl:part element="xsd1:Payee" name="payee"/>
+    	
+  </wsdl:message>
+  	
+  <wsdl:message name="NewOperationResponseMsg1">
+    		
+    <wsdl:part element="xsd1:CompletionCode" name="completionCode"/>
+    	
+  </wsdl:message>
+  	
+  <wsdl:message name="NewOperationRequestMsg2">
+    		
+    <wsdl:part element="xsd1:BillInfo" name="billInfo"/>
+    	
+  </wsdl:message>
+  	
+  <wsdl:message name="NewOperationResponseMsg2">
+    		
+    <wsdl:part element="xsd1:VerificationCode" name="verificationCode"/>
+    	
+  </wsdl:message>
+  	
+  <wsdl:portType name="PhoneBanking">
+    		
+    <wsdl:operation name="getAccountSummary">
+      			
+      <wsdl:input message="tns:NewOperationRequest"/>
+      			
+      <wsdl:output message="tns:NewOperationResponse"/>
+      		
+    </wsdl:operation>
+    		
+    <wsdl:operation name="getPayees">
+      			
+      <wsdl:input message="tns:NewOperationRequestMsg"/>
+      			
+      <wsdl:output message="tns:NewOperationResponseMsg"/>
+      		
+    </wsdl:operation>
+    		
+    <wsdl:operation name="addPayee">
+      			
+      <wsdl:input message="tns:NewOperationRequestMsg1"/>
+      			
+      <wsdl:output message="tns:NewOperationResponseMsg1"/>
+      		
+    </wsdl:operation>
+    		
+    <wsdl:operation name="payBill">
+      			
+      <wsdl:input message="tns:NewOperationRequestMsg2"/>
+      			
+      <wsdl:output message="tns:NewOperationResponseMsg2"/>
+      		
+    </wsdl:operation>
+    	
+  </wsdl:portType>
+  	
+  <wsdl:binding name="PhoneBankingSOAP" type="tns:PhoneBanking">
+    		
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    		
+    <wsdl:operation name="getAccountSummary">
+      			
+      <soap:operation soapAction="http://www.example.org/PhoneBanking/getAccountSummary"/>
+      			
+      <wsdl:input>
+        				
+        <soap:body use="literal"/>
+        			
+      </wsdl:input>
+      			
+      <wsdl:output>
+        				
+        <soap:body use="literal"/>
+        			
+      </wsdl:output>
+      		
+    </wsdl:operation>
+    		
+    <wsdl:operation name="getPayees">
+      			
+      <soap:operation soapAction="http://www.example.org/PhoneBanking/getPayees"/>
+      			
+      <wsdl:input>
+        				
+        <soap:body use="literal"/>
+        			
+      </wsdl:input>
+      			
+      <wsdl:output>
+        				
+        <soap:body use="literal"/>
+        			
+      </wsdl:output>
+      		
+    </wsdl:operation>
+    		
+    <wsdl:operation name="addPayee">
+      			
+      <soap:operation soapAction="http://www.example.org/PhoneBanking/addPayee"/>
+      			
+      <wsdl:input>
+        				
+        <soap:body use="literal"/>
+        			
+      </wsdl:input>
+      			
+      <wsdl:output>
+        				
+        <soap:body use="literal"/>
+        			
+      </wsdl:output>
+      		
+    </wsdl:operation>
+    		
+    <wsdl:operation name="payBill">
+      			
+      <soap:operation soapAction="http://www.example.org/PhoneBanking/payBill"/>
+      			
+      <wsdl:input>
+        				
+        <soap:body use="literal"/>
+        			
+      </wsdl:input>
+      			
+      <wsdl:output>
+        				
+        <soap:body use="literal"/>
+        			
+      </wsdl:output>
+      		
+    </wsdl:operation>
+    	
+  </wsdl:binding>
+  	
+  <wsdl:service name="PhoneBanking">
+    		
+    <wsdl:port binding="tns:PhoneBankingSOAP" name="PhoneBankingSOAP">
+      			
+      <soap:address location="http://localhost:8080/EmployeeManagmentSystem/services/PhoneBankingSOAP"/>
+      		
+    </wsdl:port>
+    	
+  </wsdl:service>
+  
+</wsdl:definitions>

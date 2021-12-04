@@ -1,0 +1,9 @@
+package com.domParser;
+
+public class parsingFile {
+
+	public parsingFile() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

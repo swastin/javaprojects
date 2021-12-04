@@ -1,0 +1,31 @@
+
+x	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(œöªİ8Ö‰†ÈÑ/HéRMAJORZ
+CODE_SMELL
+f
+java:S1128".Remove this unused import 'java.security.Key'.(ŞÃ“úÿÿÿÿ8Ö‰†ÈÑ/HğRMINORZ
+CODE_SMELL
+k	java:S106&"9Replace this use of System.out or System.err by a logger.(Üã‹ª8Ö‰†ÈÑ/HëRMAJORZ
+CODE_SMELL
+
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "key".(ÆÓûe8Ö‰†ÈÑ/HöRMINORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªåâšşÿÿÿÿHÄRMINORZ
+CODE_SMELL
+{
+java:S1128"CRemove this unused import 'java.security.NoSuchAlgorithmException'.(ŒòÍ¾şÿÿÿÿ8Ö‰†ÈÑ/HòRMINORZ
+CODE_SMELL
+o
+java:S1128"7Remove this unused import 'java.security.SecureRandom'.(›éè™úÿÿÿÿ8ëÄïÈÑ/HùRMINORZ
+CODE_SMELL
+a
+java:S5542"#Use secure mode and padding scheme.(¹ê¥ ÿÿÿÿÿ8Ö‰†ÈÑ/HêRCRITICALZVULNERABILITY
+t
+java:S1128"<Remove this unused import 'javax.crypto.spec.SecretKeySpec'.(¹«è•üÿÿÿÿ8Ö‰†ÈÑ/HôRMINORZ
+CODE_SMELL
+{
+java:S1128"CRemove this unused import 'java.security.GeneralSecurityException'.(À×öÏıÿÿÿÿ8Ö‰†ÈÑ/HîRMINORZ
+CODE_SMELL
+a
+java:S5542."#Use secure mode and padding scheme.(¹ê¥ ÿÿÿÿÿ8ƒÆùÈÑ/HšRCRITICALZVULNERABILITY
+k	java:S1062"9Replace this use of System.out or System.err by a logger.(†ØË‰8ƒÆùÈÑ/H›RMAJORZ
+CODE_SMELL

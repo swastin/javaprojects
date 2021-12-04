@@ -1,0 +1,18 @@
+package com.MessageDigestAlgo;
+
+import java.nio.charset.StandardCharsets;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
+public class ShaDemo {
+public ShaDemo() {}
+	public static void main(String[] args) throws NoSuchAlgorithmException 
+	{
+	
+		final MessageDigest digest = MessageDigest.getInstance("SHA3-256");
+		String originalString="SWASTIN";
+		final byte[] hashbytes = digest.digest(originalString.getBytes(StandardCharsets.UTF_8));
+		System.out.println(hashbytes);
+	}
+
+}

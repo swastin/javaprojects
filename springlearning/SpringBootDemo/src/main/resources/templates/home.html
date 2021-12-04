@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Thymleaf demo</title>
+<link th:href="@{../css/style.css}"  rel="stylesheet">
+
+<div class="heading-1">Demo with Momo</div>
+
+<table>
+	<tr>
+		<td>id</td>
+		<td>name</td>
+		<td>Action</td>
+	</tr>
+	<tr th:each="allEmployee: ${allEmployees}">
+		<td th:text=${allEmployee.id}></td>
+		<td th:text=${allEmployee.name}></d>
+		<td th:if=${allEmployee.role}=='Admin'> update</td>
+	</tr>
+</table>
+<script th:src="@{../js/script.js}"></script>
+</body>
+</html>

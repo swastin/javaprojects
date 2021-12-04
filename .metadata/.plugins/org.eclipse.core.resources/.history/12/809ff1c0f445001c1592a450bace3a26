@@ -1,0 +1,34 @@
+package com.json;
+
+import jakarta.json.bind.Jsonb;
+import jakarta.json.bind.JsonbBuilder;
+
+public class Apps {
+
+	public Apps() {}
+
+	public static void main(String[] args) {
+		Jsonb jsonb= JsonbBuilder.create();
+		Employee e=new Employee();
+		Address add= new Address();
+		add.setHousenumber("2rbf59/5");
+		add.setCity("bhubaneswar");
+		add.setState("odisha");
+		add.setCountry("india");
+		add.setZipCode(751022);
+		
+		String json= "{\"id\":1,\"name\":\"swastin\",\"phone_number\":87}";
+		e.setId(1);
+		e.setName("swastin");
+		e.setPhone_number(82);
+		e.setAddress(add);
+		String s=jsonb.toJson(e);
+		System.out.println(s);
+		Employee e1=jsonb.fromJson(json,Employee.class);
+		System.out.println(e1.getId());
+		System.out.println(e1.getName());
+		System.out.println(e1.getPhone_number());
+
+	}
+
+}

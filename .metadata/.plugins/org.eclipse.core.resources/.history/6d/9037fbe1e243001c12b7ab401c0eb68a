@@ -1,0 +1,9 @@
+package com.domParser;
+
+public class QueryXmlFileDemo {
+
+	public QueryXmlFileDemo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

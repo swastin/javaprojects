@@ -1,0 +1,9 @@
+package com.json;
+
+public class JsonDemo {
+
+	public JsonDemo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}
